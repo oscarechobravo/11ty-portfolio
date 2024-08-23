@@ -8,8 +8,8 @@
     "dev": "eleventy --serve",
     "build": "eleventy"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["portfolio"],
+  "author": "oscarechobravo",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",
