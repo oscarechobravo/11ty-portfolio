@@ -8,11 +8,14 @@ title: Home
         {% for project in collections.projects %}
             <div class="project-card">
                 <div class="project-header">
-                    <i class="fa-regular fa-folder-open folder-icon"></i>
+                    <i class="fa-solid fa-icons folder-icon"></i>
                     <div class="small-icons">
-                        <a href={{project.data.gitHubURL}}><i class="fa-brands fa-github"></i></a>
+                        <a href={{project.data.gitHubURL}}><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
+                <!--IMAGE HERE--> 
+                <img src={{project.data.image}} alt="image" class="banner-img" />
+
                 <h3>{{project.data.title}}</h3>
                 <p>{{project.data.description}}</p>
                 <a href="{{project.url}}" class="cta-btn">Read more</a>

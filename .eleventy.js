@@ -2,11 +2,10 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('src/assets');
 	eleventyConfig.addPassthroughCopy('src/css');
 	eleventyConfig.addWatchTarget('src/css');
-
+	eleventyConfig.addPassthroughCopy('src/publications');
 	eleventyConfig.addCollection('projects', (collection) => {
 		return collection.getFilteredByGlob('src/projects/*.md');
 	});
-    
 
 	eleventyConfig.addShortcode('year', () => {
 		return `${new Date().getFullYear()}`;
