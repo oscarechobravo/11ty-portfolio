@@ -4,6 +4,7 @@ title: Password Generator
 description: "Helps you generates random passwords, you can select what you want your password to entail and also you can copy generated password to clipboard."
 gitHubURL: "https://github.com/olawanlejoel/Password-Generator"
 image: "/assets/password-banner.jpeg"
+date: 2015-01-01
 ---
 
 The password generator project is a software tool designed to help users generate strong and secure passwords for their online accounts. This project aims to solve the problem of weak and easily guessable passwords by providing users with a quick and easy way to create complex passwords.
