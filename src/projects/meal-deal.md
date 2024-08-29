@@ -7,6 +7,8 @@ image: "/assets/img/meal-deal-box-cropped.jpg"
 date: 2022-01-01
 ---
 
+Publish on itch.io
+
 The book library application project is a software tool designed to help users organize and manage their personal book collections. This project aims to solve the problem of disorganization and difficulty in keeping track of books by providing users with a user-friendly interface to add, edit, and search for books.
 
 ### Technologies Used

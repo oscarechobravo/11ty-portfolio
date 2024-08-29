@@ -9,6 +9,11 @@ module.exports = function (eleventyConfig) {
 		return collection.getFilteredByGlob('src/projects/*.md');
 	});
 
+	const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+
+	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
+
 	eleventyConfig.addShortcode('year', () => {
 		return `${new Date().getFullYear()}`;
 	});
