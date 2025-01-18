@@ -1,12 +1,12 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-    <div class="project-layout">
+    <div class="post-layout">
         <h2>{{title}}</h2>
         <img src="{{image}}" alt="image" class="banner-img" />
         <a href="{{gitHubURL}}" class="cta-btn pt-btn" target ="_blank">
             <div class="small-icons">
-                GitHub <i class="fa-brands fa-github"></i>
+                link <i class="fa-brands fa-link"></i>
             </div>
         </a>
         {{ content | safe }}
