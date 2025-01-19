@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: Worker Enquiry (2021)
-description: "Open Data in Scotland: A Blueprint for Unlocking Innovation, Collaboration and Impact"
+description: ""
 gitHubURL: "https://www.gov.scot/publications/open-data-scotland-blueprint-unlocking-innovation-collaboration-impact/"
 image: "/assets/img/open-data.png"
 date: 2019-01-01

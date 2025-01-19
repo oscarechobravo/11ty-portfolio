@@ -2,21 +2,27 @@
 layout: layouts/project.njk
 title: ICT4S Zine - Liminal Excavations (2024)
 description: "A card game where you get to play as a gig economy cycle courier. It helps readers have a good list of books they are eiter currently reading or have finished reading."
-gitHubURL: ""
-image: "/assets/img/ourteatowels.jpg"
+gitHubURL: "https://sflab.eecs.kth.se/pub/pj7s6ahe/release/6"  
+image: "/assets/img/ict4s-zine.jpg"
 date: 2024-06-01
 ---
 
-The book library application project is a software tool designed to help users organize and manage their personal book collections. This project aims to solve the problem of disorganization and difficulty in keeping track of books by providing users with a user-friendly interface to add, edit, and search for books.
+I co-produced a Zine for the ICT4S (ICT for Sustainability) conference with Aksel Biørn-Hansen. 
 
-### Technologies Used
-The technologies used in this project include React for the frontend, Node.js for the backend, and PostgreSQL for data storage. The application also utilizes RESTful API architecture for data communication between the frontend and backend.
+You can find an archive of the call for contributions [here on the ICT4S site](https://conf.researchr.org/track/ict4s-2024/ict4s-2024-ict4s-24-zine).
 
-### Challenges and Lessons Learned
-One of the main challenges faced during this project was designing the data model to efficiently store book information while maintaining data integrity. The team had to consider various factors such as book genres, authors, and publication dates to create a comprehensive and efficient database schema.
+We did some fun stuff with the Zine, including its creation, curation, printing, and presentation at the conference.
+- *Call and curation* - I played trouble maker and vibe checker, helping ensure that the zine was open to all, and not stuck completely in the academic culture that prevents the ideas and knowledge that people produce getting out into the world.
+- *Collaboration and Connections sessions* - We hosted remote sessions where contributors, a mix of authors, designs and illustrators, could gather to share their ideas and make connections to other folk that could collaborate. These sessions were also the primary way that we found consent around the design decisions we made.  
+- *Presentation and Zine Cafe* - At the conference we ran a facilitated workshop style session. We handed out physical copies of the zine, and then ran a cafe style session where tables in the session all made their own DIY contributions about themes and topics that they discussed. After the session we kept resources and the zines (art?) that attendees had created in a common space so that anyone could Zine Cafe at any point throughout the conference, which you can see here: ![Zine Cafe](https://sflab.eecs.kth.se/pub/pj7s6ahe/release/6?from=1557&to=1565)
 
-Another challenge was implementing the search functionality that allowed users to search for books based on various criteria such as title, author, and genre. The team had to ensure that the search feature was intuitive and efficient, and that the search results were accurate and relevant.
 
-Throughout the project, the team learned valuable lessons about software development, such as the importance of planning and design, effective communication, and testing and debugging. They also learned the importance of collaboration and teamwork in achieving project goals.
 
-Overall, the book library application project was a valuable learning experience that allowed the team to develop their technical and interpersonal skills, and create a useful tool for book enthusiasts looking to stay organized and manage their collections.
+### My Role
+- Co-editor and co-factilitator - I was both a co-editor of the Zine and facilitator of the Zine cafe and session at the conference.
+
+### Tech and tools
+
+- Adobe InDesign
+- Adobe Photoshop
+
