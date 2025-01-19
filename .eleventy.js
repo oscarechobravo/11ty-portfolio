@@ -1,4 +1,10 @@
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 module.exports = function (eleventyConfig) {
+	const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+
+  // If you have other `addPlugin` calls, UpgradeHelper should be listed last.
+  eleventyConfig.addPlugin(UpgradeHelper);
+
 	eleventyConfig.addPassthroughCopy('src/assets');
 	eleventyConfig.addPassthroughCopy('src/css');
 	eleventyConfig.addWatchTarget('src/css');
@@ -9,9 +15,13 @@ module.exports = function (eleventyConfig) {
 		return collection.getFilteredByGlob('src/projects/*.md');
 	});
 
-	const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+	eleventyConfig.addCollection('posts', (collection) => {
+		return collection.getFilteredByGlob('src/posts/*.md');
+	});
 
-	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+	//const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+
+	//eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
 
 	eleventyConfig.addShortcode('year', () => {

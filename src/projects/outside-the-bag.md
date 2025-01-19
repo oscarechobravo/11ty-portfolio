@@ -4,7 +4,7 @@ title: Outside the Bag (2021)
 description: "A card game where you get to play as a gig economy cycle courier. It helps readers have a good list of books they are eiter currently reading or have finished reading."
 gitHubURL: "https://crankandfile.co.uk/outside-the-bag"
 image: "/assets/img/booklet_mockups.png"
-date: 2019-01-01
+date: 2021-03-01
 ---
 
 The book library application project is a software tool designed to help users organize and manage their personal book collections. This project aims to solve the problem of disorganization and difficulty in keeping track of books by providing users with a user-friendly interface to add, edit, and search for books.

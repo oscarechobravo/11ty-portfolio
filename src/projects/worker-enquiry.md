@@ -1,10 +1,10 @@
 ---
 layout: layouts/project.njk
-title: Worker Enquiry (2021)
-description: ""
-gitHubURL: "https://www.gov.scot/publications/open-data-scotland-blueprint-unlocking-innovation-collaboration-impact/"
-image: "/assets/img/open-data.png"
-date: 2019-01-01
+title: Digital Worker Enquiry (2021)
+description: "A two day event uncovering data, solidarity, and leverage in precarious digital work in the gig economy."
+gitHubURL: "https://digitalworkerinquiry.com/"
+image: "https://digitalworkerinquiry.com/images/DWI-Logo-navbar.png"
+date: 2021-11-28
 ---
 
 ALL THE FILES ARE HERE BRo,.
