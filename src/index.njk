@@ -6,20 +6,26 @@ title: Home
     <h2>Projects</h2>
     <div class="projects-grid">
         {% for project in collections.projects | reverse %}
+        
             <div class="project-card">
-                <div class="project-header">
+                
+                <!--<div class="project-header">
                     <i class="fa-solid fa-icons folder-icon"></i>
                     <div class="small-icons">
                         <a href={{project.data.gitHubURL}} target ="_blank"><i class="fa-solid fa-link"></i></a>
                     </div>
-                </div>
+                </div>-->
                 <!--IMAGE HERE--> 
-                <img src={{project.data.image}} alt="image" class="banner-img" />
-
-                <h3>{{project.data.title}}</h3>
-                <p>{{project.data.description}}</p>
-                <a href="{{project.url}}" class="cta-btn">Read more</a>
+                    <a href="{{project.url}}">
+                        <img src={{project.data.image}} alt="image" class="banner-img" />
+                    </a>             
+                    <div class="project-title">
+                    <h3>{{project.data.title}}</h3>
+                </div>
+                <!--<p>{{project.data.description}}</p>-->
+                 <!--class="cta-btn">Read more-->  
             </div>
+            
         {% endfor %}
     </div> 
 </div>

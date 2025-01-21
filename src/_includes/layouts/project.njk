@@ -11,9 +11,14 @@
                 Link <i class="fa-brands fa-github"></i>
             </div>
         </a>
-        {% else %}
         {% endif %}
-        
+        {% if URL.length %}
+        <a href="{{URL}}" class="cta-btn pt-btn" target ="_blank">
+            <div class="small-icons">
+                Link <i class="fa-solid fa-link"></i>
+            </div>
+        </a>
+        {% endif %}
         {{ content | safe }}
     </div>
 {% endblock %}
