@@ -2,8 +2,6 @@ const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 module.exports = function (eleventyConfig) {
 	const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
-  // If you have other `addPlugin` calls, UpgradeHelper should be listed last.
-  eleventyConfig.addPlugin(UpgradeHelper);
 
 	eleventyConfig.addPassthroughCopy('src/assets');
 	eleventyConfig.addPassthroughCopy('src/css');

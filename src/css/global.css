@@ -538,6 +538,13 @@ hr {
     color: #FFCC17;
 }
 
+.post-card .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
 .post-card .post h3 {
     font-size: 20px;
     margin-bottom: 10px;

@@ -6,14 +6,11 @@ title: Words
 <div class="posts-container">
     <h2>Words</h2>
     <div class="posts-grid">
-        {% for posts in collections.posts %}
+        {% for post in collections.posts %}
             <div class="post-card">
-                <div class="post-header">
-                    <i class="fa-regular fa-folder-open folder-icon"></i>
-                    <div class="small-icons">
-                        <a href={{post.data.gitHubURL}}><i class="fa-brands fa-github"></i></a>
-                    </div>
-                </div>
+                <a href="{{post.url}}">
+                    <img src={{post.data.image}} alt="image" class="banner-img" />
+                </a> 
                 <h3>{{post.data.title}}</h3>
                 <p>{{post.data.description}}</p>
                 <a href="{{post.url}}" class="cta-btn">Read more</a>

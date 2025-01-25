@@ -2,23 +2,28 @@
 layout: layouts/project.njk
 title: Flip gig (2019)
 description: "Open Data in Scotland: A Blueprint for Unlocking Innovation, Collaboration and Impact"
-gitHubURL: "https://www.gov.scot/publications/open-data-scotland-blueprint-unlocking-innovation-collaboration-impact/"
-image: "/assets/img/open-data.png"
+URL: "http://www.flipgig.org/"
+image: "/assets/img/flipgig.png"
 date: 2019-01-01
 ---
 
-ALL THE FILES ARE HERE BRo,.
+Flipgig is a collaboration project between Lancaster University and University of Southampton funded by the EPSRC ([EP/S027726/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S027726/1)).
 
-The book library application project is a software tool designed to help users organize and manage their personal book collections. This project aims to solve the problem of disorganization and difficulty in keeping track of books by providing users with a user-friendly interface to add, edit, and search for books.
+Flipgig is a follow on project from [Freight Traffic Control 2050 (FTC2050)](/projects/ftc2050), that brings together user research, transport research, operation research and HCI to consider how gig economy models in last-mile logistics can be made more fair and sustainable.
 
-### Technologies Used
-The technologies used in this project include React for the frontend, Node.js for the backend, and PostgreSQL for data storage. The application also utilizes RESTful API architecture for data communication between the frontend and backend.
 
-### Challenges and Lessons Learned
-One of the main challenges faced during this project was designing the data model to efficiently store book information while maintaining data integrity. The team had to consider various factors such as book genres, authors, and publication dates to create a comprehensive and efficient database schema.
+I worked with Adrian Friday, Carolynne Lord, Tom Cherret, Fraser McLoed, Andy Oakey, and Antonio Martinez-Sykora. Flipgig collaborated with [Switch-gig](/projects/switch-gig) contributing research team time in kind.
 
-Another challenge was implementing the search functionality that allowed users to search for books based on various criteria such as title, author, and genre. The team had to ensure that the search feature was intuitive and efficient, and that the search results were accurate and relevant.
+We worked directly with couriers across the UK in Edinburgh, Manchester and York. We paid them fairly for their involvement in workshops, interviews and data gathering activities, at the Living Wage. We thank them greatly for their involvement and collaboration in our projects.
 
-Throughout the project, the team learned valuable lessons about software development, such as the importance of planning and design, effective communication, and testing and debugging. They also learned the importance of collaboration and teamwork in achieving project goals.
+We worked with a range of non-academic collaborators including [Gnewt Cargo (now part of Menzies Distribution)](https://evfleetworld.co.uk/menzies-distribution-acquires-ev-delivery-firm-gnewt-cargo/), [Menzies Distrbution](https://www.menziesdistribution.com/), [Hermes (now Evri)](https://www.evri.com/news/the-history-of-hermes), and [Transport for London](https://tfl.gov.uk/).  
 
-Overall, the book library application project was a valuable learning experience that allowed the team to develop their technical and interpersonal skills, and create a useful tool for book enthusiasts looking to stay organized and manage their collections.
+
+
+The project ran for a little over 2 years and focused on two parallel tracks:
+- Working with couriers to understand their lived and working experiences to help inform technology design 
+- Developing optimisations for industry applications of last mile logistics that prioritised fair pay of workers
+
+
+We had coverage in [WIRED](https://www.wired.co.uk/article/gig-economy-fix-academics) which was cool! 
+

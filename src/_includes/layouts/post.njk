@@ -4,11 +4,13 @@
     <div class="post-layout">
         <h2>{{title}}</h2>
         <img src="{{image}}" alt="image" class="banner-img" />
+        {% if gitHubURL.length %}
         <a href="{{gitHubURL}}" class="cta-btn pt-btn" target ="_blank">
             <div class="small-icons">
                 link <i class="fa-solid fa-link"></i>
             </div>
         </a>
+        {% endif %}
         {{ content | safe }}
     </div>
 {% endblock %}
