@@ -1,24 +1,22 @@
 ---
 layout: layouts/project.njk
 title: Switch-gig (2019)
-description: "Open Data in Scotland: A Blueprint for Unlocking Innovation, Collaboration and Impact"
+description: "Particiatory design leading to critical and speculative showcase of user and design research with gig economy couriers"
 gitHubURL: "https://www.gov.scot/publications/open-data-scotland-blueprint-unlocking-innovation-collaboration-impact/"
-image: "/assets/img/open-data.png"
+image: "/assets/img/sg_logo.png"
 date: 2019-01-01
 ---
 
-ALL THE FILES ARE HERE BRo,.
 
-The book library application project is a software tool designed to help users organize and manage their personal book collections. This project aims to solve the problem of disorganization and difficulty in keeping track of books by providing users with a user-friendly interface to add, edit, and search for books.
+[Switch-Gig](https://switchgig.wordpress.com/) was a project that collaborated with gig-workers to explore and understand their current work experiences, the role of technology in this, as well as how future digital technology can better support the workers themselves.
 
-### Technologies Used
-The technologies used in this project include React for the frontend, Node.js for the backend, and PostgreSQL for data storage. The application also utilizes RESTful API architecture for data communication between the frontend and backend.
+One of the aims of the project was supporting gig worker advocacy by designing bespoke research and engagement tools, to work with couriers to understand their experiences, and then communicate their working experiences. 
 
-### Challenges and Lessons Learned
-One of the main challenges faced during this project was designing the data model to efficiently store book information while maintaining data integrity. The team had to consider various factors such as book genres, authors, and publication dates to create a comprehensive and efficient database schema.
+We developed a set of bespoke design probes (including maps, diaries, and photos) to understand the experiences of gig economy workers (who work for food platforms such as Deliveroo and UberEats). 
 
-Another challenge was implementing the search functionality that allowed users to search for books based on various criteria such as title, author, and genre. The team had to ensure that the search feature was intuitive and efficient, and that the search results were accurate and relevant.
+We then used this research data to develop a toolkit for couriers to collect and analyse their own data to better communicate their experiences to public officials and policymakers focusing on digital strategies around cities and work.
 
-Throughout the project, the team learned valuable lessons about software development, such as the importance of planning and design, effective communication, and testing and debugging. They also learned the importance of collaboration and teamwork in achieving project goals.
+*As part of the [Switch-Gig](https://switchgig.wordpress.com/) we were looking at methods and tools for capturing the experiences and expertise of gig economy couriers.*
 
-Overall, the book library application project was a valuable learning experience that allowed the team to develop their technical and interpersonal skills, and create a useful tool for book enthusiasts looking to stay organized and manage their collections.
+### Tools and frameworks
+Speculative Design, Game Design, Critical Geography, Co-design, Design Fiction

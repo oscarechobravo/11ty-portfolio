@@ -1,7 +1,7 @@
 {
   "name": "11ty-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![How To Craft a Stylish Static Website with Eleventy](https://user-images.githubusercontent.com/2342458/235165020-59964255-e651-45fd-a236-2690e732117e.png)](https://kinsta.com/blog/eleventy/)",
   "main": "index.js",
   "scripts": {
     "start": "serve ./public",

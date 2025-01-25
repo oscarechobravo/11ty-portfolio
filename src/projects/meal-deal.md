@@ -7,18 +7,16 @@ image: "/assets/img/meal-deal-box-cropped.jpg"
 date: 2022-01-01
 ---
 
-Publish on itch.io
+**Meal Deal is now available [on itch.io](https://oliverbates.itch.io/meal-deal) to print at home for free!**
 
-The book library application project is a software tool designed to help users organize and manage their personal book collections. This project aims to solve the problem of disorganization and difficulty in keeping track of books by providing users with a user-friendly interface to add, edit, and search for books.
+Meal Deal is a card game that offers worker-centric perspectives on gig economy courier work. The project is co-lead by myself and [Ben Kirman](https://ben.kirman.org/) and is grounded in the research projects [Switch-Gig]() and [Flip Gig]().
 
-### Technologies Used
-The technologies used in this project include React for the frontend, Node.js for the backend, and PostgreSQL for data storage. The application also utilizes RESTful API architecture for data communication between the frontend and backend.
+Having started development in 2019 with [Switch-Gig](https://switchgig.wordpress.com), this project has prioritised worker-led methods, producing a range of outputs that put forward the perspectives and experiences of gig economy couriers working in UK cities.
 
-### Challenges and Lessons Learned
-One of the main challenges faced during this project was designing the data model to efficiently store book information while maintaining data integrity. The team had to consider various factors such as book genres, authors, and publication dates to create a comprehensive and efficient database schema.
+This project brings together outputs from:
+- Switch-Gig
+- FlipGig
+- Meal Deal
 
-Another challenge was implementing the search functionality that allowed users to search for books based on various criteria such as title, author, and genre. The team had to ensure that the search feature was intuitive and efficient, and that the search results were accurate and relevant.
-
-Throughout the project, the team learned valuable lessons about software development, such as the importance of planning and design, effective communication, and testing and debugging. They also learned the importance of collaboration and teamwork in achieving project goals.
-
-Overall, the book library application project was a valuable learning experience that allowed the team to develop their technical and interpersonal skills, and create a useful tool for book enthusiasts looking to stay organized and manage their collections.
+### Tools and frameworks
+Critical game design, speculative design, Research through Design
