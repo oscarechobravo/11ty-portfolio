@@ -8,7 +8,7 @@
     "dev": "eleventy --serve",
     "build": "npx @11ty/eleventy --pathprefix=11ty-portfolio",
     "deploy": "gh-pages -d public",
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/11ty-portfolio/",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/11ty-portfolio/"
 
   },
   "keywords": [
