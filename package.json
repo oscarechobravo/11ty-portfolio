@@ -15,8 +15,13 @@
   "author": "oscarechobravo",
   "license": "ISC",
   "dependencies": {
+<<<<<<< Updated upstream
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-upgrade-help": "^3.0.2",
+=======
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-upgrade-help": "^3.0.1",
+>>>>>>> Stashed changes
     "serve": "^14.2.0"
   },
   "devDependencies": {
