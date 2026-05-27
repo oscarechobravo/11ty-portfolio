@@ -18,7 +18,7 @@ We worked directly with couriers across the UK in Edinburgh, Manchester and York
 
 ## Inclusive design - Couriers as co-researchers
 
-We paid them fairly for their involvement in workshops, interviews and data gathering activities, at the Living Wage. We thank them greatly for their involvement and collaboration in our projects.
+We paid them fairly for their involvement in workshops, interviews and data gathering activities, at the Living Wage. We thank them greatly for their involvement and collaboration in our projects. 
 
 We worked with a range of non-academic collaborators including [Gnewt Cargo (now part of Menzies Distribution)](https://evfleetworld.co.uk/menzies-distribution-acquires-ev-delivery-firm-gnewt-cargo/), [Menzies Distrbution](https://www.menziesdistribution.com/), [Hermes (now Evri)](https://www.evri.com/news/the-history-of-hermes), and [Transport for London](https://tfl.gov.uk/).  
 
